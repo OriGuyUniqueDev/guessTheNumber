@@ -15,11 +15,9 @@ function App() {
 		setInputNum(1);
 		setShowHint(<p></p>);
 		setCount(0);
-		console.log(num);
 	}
 
 	function checkGuess() {
-		console.log(secretNum);
 		setCount(count + 1);
 		if (inputNum < secretNum) {
 			setShowHint(<p className="text-7xl font-bold text-red-500 ">Too Low 👇, try again with higher number</p>);
