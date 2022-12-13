@@ -22,7 +22,7 @@ function App() {
 		if (inputNum < secretNum) {
 			setShowHint(<p className="text-7xl font-bold text-red-500 ">Too Low 👇, try again with higher number</p>);
 		} else if (inputNum > secretNum) {
-			setShowHint(<p className="text-7xl font-bold text-red-500 ">Too High 👆, try again with higher number</p>);
+			setShowHint(<p className="text-7xl font-bold text-red-500 ">Too High 👆, try again with lower number</p>);
 		} else if (inputNum === secretNum) {
 			setShowHint(
 				<div className="flex flex-col mx-auto gap-20">
