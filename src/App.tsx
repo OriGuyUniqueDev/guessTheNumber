@@ -51,7 +51,7 @@ function App() {
 	}
 
 	return (
-		<div className="App mt-48  w-4/6 mx-auto  flex flex-col gap-20">
+		<div className="App mt-48 w-4/6 mx-auto  flex flex-col gap-20">
 			<h1 className="text-8xl font-black text-white">Guess The Number</h1>
 			<h2 className="text-6xl  text-white ">please enter a number between 1 - 100, 🍀🤞</h2>
 			<input
